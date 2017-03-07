@@ -1,0 +1,59 @@
+/* Theme Name: [childtwentythirteen]
+Description: Child theme based on Twenty Thirteen for dev tools
+Author: Anna
+Version: 1.0
+Template: twentythirteen
+*/
+@import url("../twentythirteen/style.css");
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+#header {
+	background: url("almond-blossom.jpg");
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tangerine', cursive;
+}
+h1.site-title {
+	background: white;
+}
+
+h1 {
+	color: #8cb3d9;
+}
+h2.site-description {
+	color: white;
+}
+div#main.site-main {
+background-color: #576675;
+color:white;
+}
+.entry-meta a {
+	color: #8cb3d9;
+}
+div.site-info {
+	background: #8cb3d9;
+}
+
+div#secondary.sidebar-container {
+	background: black;
+	color: white;
+}
+div.widget-area.masonry {
+background: #8cb3d9;
+position: relative; height: 350px;
+}
+.site-footer .widget a {
+	color:black;
+	font-size: 15px;
+}
+
+nav {
+	background: #0088cc;
+	margin: 30px 0 0 0;
+	border-top: 1px;
+	border-bottom: 1px;
+}
+
+html, button, input, select, textarea {
+    font-family: 'Dosis', sans-serif;
+}
