@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1.site-title {
 	background: white;
+	text-align: center;
 }
 
 h1 {
@@ -22,6 +23,7 @@ h1 {
 }
 h2.site-description {
 	color: white;
+	text-align: center;
 }
 div#main.site-main {
 background-color: #576675;
